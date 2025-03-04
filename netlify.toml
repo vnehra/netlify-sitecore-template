@@ -1,0 +1,19 @@
+#sample
+
+[build]
+command = "cross-env NODE_ENV=production npm-run-all --serial bootstrap next:build"
+
+[[plugins]]
+package = "@netlify/plugin-nextjs"
+
+
+[template.environment]
+#Variables for Sitecore
+FETCH_WITH = "FETCH_WITH"
+GRAPH_QL_ENDPOINT = "GRAPH_QL_ENDPOINT"
+GRAPH_QL_SERVICE_RETRIES = "GRAPH_QL_SERVICE_RETRIES"
+JSS_EDITING_SECRET = "JSS_EDITING_SECRET"
+NETLIFY_BUILD_DEBUG = "NETLIFY_BUILD_DEBUG"
+SITECORE_API_KEY = "SITECORE_API_KEY"
+SITECORE_EDGE_CONTEXT_ID = "SITECORE_EDGE_CONTEXT_ID"
+SITECORE_SITE_NAME = "SITECORE_SITE_NAME"
