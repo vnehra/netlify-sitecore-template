@@ -67,6 +67,6 @@ Please click on the Depoly to Netlify button below. This will clone your repo to
 
 The one-click deploy allows you to connect Netlify to your GitHub account to clone the `Sitecore Template` repository and deploy it automatically.
 
-[![Deploy to Netlify button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Netlify-Moneytronic/sitecore-netlify-starterkit)
+[![Deploy to Netlify button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/SeanMcTernan/sitecore-netlify-1click)
 
 By clicking the above button, you will be navigated to the Netlify’s direct deploy page with the project’s repository passed as parameters in the url. Click the **Connect to GitHub** button, name your repository and enter in this your Sitecore Values. 
