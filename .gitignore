@@ -29,5 +29,5 @@
 scjssconfig.json
 *.deploysecret.config
 
-# vercel
-.vercel
+# netlify
+.netlify
