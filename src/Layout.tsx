@@ -42,6 +42,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
       <div className={mainClassPageEditing}>
         <header>
           <p>This is my HCA demo. I am a good coder now.</p>
+          <h1>AC DC</h1>
           <div id="header">{route && <Placeholder name="headless-header" rendering={route} />}</div>
         </header>
         <main>
