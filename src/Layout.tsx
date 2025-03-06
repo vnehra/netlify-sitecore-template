@@ -41,7 +41,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
       {/* root placeholder for the app, which we add components to using route data */}
       <div className={mainClassPageEditing}>
         <header>
-          <p>This is my HCA demo.</p>
+          <p>This is my HCA demo. I am a good coder now.</p>
           <div id="header">{route && <Placeholder name="headless-header" rendering={route} />}</div>
         </header>
         <main>
@@ -54,7 +54,5 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
     </>
   );
 };
-
-return "I'm breaking the build";
 
 export default Layout;
